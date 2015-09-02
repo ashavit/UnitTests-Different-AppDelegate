@@ -12,10 +12,9 @@
 		C44845301B97187B00AA1481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C448452F1B97187B00AA1481 /* ViewController.m */; };
 		C44845331B97187B00AA1481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44845311B97187B00AA1481 /* Main.storyboard */; };
 		C44845351B97187B00AA1481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44845341B97187B00AA1481 /* Assets.xcassets */; };
-		C44845381B97187B00AA1481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44845361B97187B00AA1481 /* LaunchScreen.storyboard */; };
 		C44845431B97187B00AA1481 /* Test_Two_AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44845421B97187B00AA1481 /* Test_Two_AppDelegateTests.m */; };
-		C448454F1B9718FE00AA1481 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C448454E1B9718FE00AA1481 /* TestAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		C44845501B971A9C00AA1481 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C448454E1B9718FE00AA1481 /* TestAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		C448454F1B9718FE00AA1481 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C448454E1B9718FE00AA1481 /* TestAppDelegate.m */; };
+		C4AD85321B971D0900EB5C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD85301B971D0900EB5C8B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +36,13 @@
 		C448452F1B97187B00AA1481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C44845321B97187B00AA1481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C44845341B97187B00AA1481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C44845371B97187B00AA1481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44845391B97187B00AA1481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C448453E1B97187B00AA1481 /* Test Two AppDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Two AppDelegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44845421B97187B00AA1481 /* Test_Two_AppDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Two_AppDelegateTests.m; sourceTree = "<group>"; };
 		C44845441B97187B00AA1481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C448454D1B9718FE00AA1481 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
 		C448454E1B9718FE00AA1481 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		C4AD85311B971D0900EB5C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +89,8 @@
 				C448452E1B97187B00AA1481 /* ViewController.h */,
 				C448452F1B97187B00AA1481 /* ViewController.m */,
 				C44845311B97187B00AA1481 /* Main.storyboard */,
+				C4AD85301B971D0900EB5C8B /* LaunchScreen.storyboard */,
 				C44845341B97187B00AA1481 /* Assets.xcassets */,
-				C44845361B97187B00AA1481 /* LaunchScreen.storyboard */,
 				C44845391B97187B00AA1481 /* Info.plist */,
 				C44845281B97187B00AA1481 /* Supporting Files */,
 			);
@@ -197,7 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44845381B97187B00AA1481 /* LaunchScreen.storyboard in Resources */,
+				C4AD85321B971D0900EB5C8B /* LaunchScreen.storyboard in Resources */,
 				C44845351B97187B00AA1481 /* Assets.xcassets in Resources */,
 				C44845331B97187B00AA1481 /* Main.storyboard in Resources */,
 			);
@@ -217,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44845501B971A9C00AA1481 /* TestAppDelegate.m in Sources */,
 				C44845301B97187B00AA1481 /* ViewController.m in Sources */,
 				C448452D1B97187B00AA1481 /* AppDelegate.m in Sources */,
 				C448452A1B97187B00AA1481 /* main.m in Sources */,
@@ -252,10 +250,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C44845361B97187B00AA1481 /* LaunchScreen.storyboard */ = {
+		C4AD85301B971D0900EB5C8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C44845371B97187B00AA1481 /* Base */,
+				C4AD85311B971D0900EB5C8B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -350,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Test Two AppDelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autodesk.Test-Two-AppDelegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Test Two AppDelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autodesk.Test-Two-AppDelegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +410,7 @@
 				C44845491B97187B00AA1481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C448454A1B97187B00AA1481 /* Build configuration list for PBXNativeTarget "Test Two AppDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				C448454C1B97187B00AA1481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
