@@ -1,14 +1,14 @@
 //
-//  AppDelegate.m
+//  TestAppDelegate.m
 //  Test Two AppDelegate
 //
 //  Created by Amir Shavit on 9/2/15.
 //  Copyright © 2015 Autodesk. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TestAppDelegate.h"
 
-@implementation AppDelegate
+@implementation TestAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

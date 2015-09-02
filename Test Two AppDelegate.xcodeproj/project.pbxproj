@@ -14,6 +14,7 @@
 		C44845351B97187B00AA1481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44845341B97187B00AA1481 /* Assets.xcassets */; };
 		C44845381B97187B00AA1481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44845361B97187B00AA1481 /* LaunchScreen.storyboard */; };
 		C44845431B97187B00AA1481 /* Test_Two_AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44845421B97187B00AA1481 /* Test_Two_AppDelegateTests.m */; };
+		C448454F1B9718FE00AA1481 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C448454E1B9718FE00AA1481 /* TestAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C448453E1B97187B00AA1481 /* Test Two AppDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Two AppDelegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44845421B97187B00AA1481 /* Test_Two_AppDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Two_AppDelegateTests.m; sourceTree = "<group>"; };
 		C44845441B97187B00AA1481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C448454D1B9718FE00AA1481 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		C448454E1B9718FE00AA1481 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 		C44845411B97187B00AA1481 /* Test Two AppDelegateTests */ = {
 			isa = PBXGroup;
 			children = (
+				C448454D1B9718FE00AA1481 /* TestAppDelegate.h */,
+				C448454E1B9718FE00AA1481 /* TestAppDelegate.m */,
 				C44845421B97187B00AA1481 /* Test_Two_AppDelegateTests.m */,
 				C44845441B97187B00AA1481 /* Info.plist */,
 			);
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C448454F1B9718FE00AA1481 /* TestAppDelegate.m in Sources */,
 				C44845431B97187B00AA1481 /* Test_Two_AppDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
